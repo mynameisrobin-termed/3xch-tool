@@ -36,14 +36,17 @@ commands = {
 
 def banner():
     banner_text = """
-                                                   __                 
-                                       ____  ___  / /_____________  __
-                                      / __ \/ _ \/ __/ ___/ ___/ / / /
-                                     / / / /  __/ /_/ /__/ /  / /_/ / 
-                                    /_/ /_/\___/\__/\___/_/   \__, /
-                                                             /____/
+
+▓█████ ▒██   ██▒ ▄████▄   ██░ ██ 
+▓█   ▀ ▒▒ █ █ ▒░▒██▀ ▀█  ▓██░ ██▒
+▒███   ░░  █   ░▒▓█    ▄ ▒██▀▀██░
+▒▓█  ▄  ░ █ █ ▒ ▒▓▓▄ ▄██▒░▓█ ░██ 
+░▒████▒▒██▒ ▒██▒▒ ▓███▀ ░░▓█▒░██▓
+░░ ▒░ ░▒▒ ░ ░▓ ░░ ░▒ ▒  ░ ▒ ░░▒░▒
+ ░ ░  ░░░   ░▒ ░  ░  ▒    ▒ ░▒░ ░
+
 """
-    print(Fore.MAGENTA + banner_text)
+    print(Fore.RED + banner_text)
 
 
 def update():
@@ -100,7 +103,7 @@ def main():
         user_id = data['id']
         invite_link = f"https://discord.com/api/oauth2/authorize?client_id={user_id}&permissions=8&scope=bot"
         options = f"""{Fore.LIGHTMAGENTA_EX}┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  {Colors.gray}https://discord.gg/9rRHUYzCHG{Fore.LIGHTMAGENTA_EX}  ┃       {Colors.gray}https://e-z.bio/az{Fore.LIGHTMAGENTA_EX}        ┃  {Colors.gray}https://github.com/dropalways{Fore.LIGHTMAGENTA_EX}  ┃
+┃  {Colors.gray}discord: 3xch{Fore.LIGHTMAGENTA_EX}  ┃       {Colors.gray}https://guns.lol/3xch{Fore.LIGHTMAGENTA_EX}        ┃  {Colors.gray}https://github.com/mynameisrobin_termed{Fore.LIGHTMAGENTA_EX}  ┃
 ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
 ┃  [{Colors.gray}1{Fore.LIGHTMAGENTA_EX}] {Colors.gray}Mass ban{Fore.LIGHTMAGENTA_EX}                   ┃  [{Colors.gray}10{Fore.LIGHTMAGENTA_EX}] {Colors.gray}Mass purge messages{Fore.LIGHTMAGENTA_EX}       ┃  [{Colors.gray}19{Fore.LIGHTMAGENTA_EX}] . . . . . . . . . . . . .{Fore.LIGHTMAGENTA_EX} ┃
 ┃  [{Colors.gray}2{Fore.LIGHTMAGENTA_EX}] {Colors.gray}Mass create channels{Fore.LIGHTMAGENTA_EX}       ┃  [{Colors.gray}11{Fore.LIGHTMAGENTA_EX}] {Colors.gray}Mass leave servers{Fore.LIGHTMAGENTA_EX}        ┃  [{Colors.gray}20{Fore.LIGHTMAGENTA_EX}] . . . . . . . . . . . . .{Fore.LIGHTMAGENTA_EX} ┃
@@ -119,7 +122,7 @@ def main():
         print(Fore.LIGHTMAGENTA_EX + options)
     else:
         options2 = f"""{Fore.LIGHTMAGENTA_EX}┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  {Colors.gray}https://discord.gg/9rRHUYzCHG{Fore.LIGHTMAGENTA_EX}  ┃       {Colors.gray}https://e-z.bio/az{Fore.LIGHTMAGENTA_EX}        ┃  {Colors.gray}https://github.com/dropalways{Fore.LIGHTMAGENTA_EX}  ┃
+┃  {Colors.gray}discord: 3xch{Fore.LIGHTMAGENTA_EX}  ┃       {Colors.gray}https://guns.lol/3xch{Fore.LIGHTMAGENTA_EX}        ┃  {Colors.gray}https://github.com/mynameisrobin_termed{Fore.LIGHTMAGENTA_EX}  ┃
 ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
 ┃  [{Colors.gray}1{Fore.LIGHTMAGENTA_EX}] {Colors.gray}Mass ban{Fore.LIGHTMAGENTA_EX}                   ┃  [{Colors.gray}10{Fore.LIGHTMAGENTA_EX}] {Colors.gray}Mass purge messages{Fore.LIGHTMAGENTA_EX}       ┃  [{Colors.gray}19{Fore.LIGHTMAGENTA_EX}] . . . . . . . . . . . . .{Fore.LIGHTMAGENTA_EX} ┃
 ┃  [{Colors.gray}2{Fore.LIGHTMAGENTA_EX}] {Colors.gray}Mass create channels{Fore.LIGHTMAGENTA_EX}       ┃  [{Colors.gray}11{Fore.LIGHTMAGENTA_EX}] {Colors.gray}Mass leave servers{Fore.LIGHTMAGENTA_EX}        ┃  [{Colors.gray}20{Fore.LIGHTMAGENTA_EX}] . . . . . . . . . . . . .{Fore.LIGHTMAGENTA_EX} ┃
