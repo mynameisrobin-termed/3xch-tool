@@ -139,7 +139,7 @@ def main():
 
     while True:
         try:
-            user_input = Write.Input(f"\n\ntrollinc""@netcry━>>> ", Colors.gray, interval=0.03)
+            user_input = Write.Input(f"\n\nChoice""@3xch━>>> ", Colors.gray, interval=0.03)
 
         except KeyboardInterrupt:
             sys.exit()
