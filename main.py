@@ -8,7 +8,6 @@ import sys
 import tempfile
 import shutil
 import random
-import easygui
 
 sys.dont_write_bytecode = True
 
