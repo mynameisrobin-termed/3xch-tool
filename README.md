@@ -1,8 +1,3 @@
-<img src="resources/terminal.gif">
-
-
-
-
 ---
 
 # How to contribute to this project
